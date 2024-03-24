@@ -1,6 +1,7 @@
+
 .content{
 height: 100vh;
-background-image: url(../Images/Capture.PNG);
+background-image: url("../Images/Capture.PNG");
 background-size:cover ;
 background-position: center ;
 }
