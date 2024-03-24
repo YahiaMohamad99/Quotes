@@ -1,1 +1,1 @@
-Click to visit website ttps://yahiamohamad99.github.io/Quotes/
+Click to visit website: https://yahiamohamad99.github.io/Quotes/
