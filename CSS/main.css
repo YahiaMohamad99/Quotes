@@ -1,0 +1,11 @@
+.content{
+height: 100vh;
+background-image: url(../Images/Capture.PNG);
+background-size:cover ;
+background-position: center ;
+}
+
+#text{
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
