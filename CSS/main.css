@@ -11,3 +11,22 @@ background-position: center ;
     border-radius: 20px;
     color   :#8E7754;
 }
+.quote-box{
+
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width:1500px) {
+   
+    .quote-box{
+        height: 450px;
+    }
+
+}
+@media screen and (max-width :400px) {
+   
+    .quote-box{
+        height: 75%;
+    }
+
+}
