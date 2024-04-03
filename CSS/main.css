@@ -4,6 +4,7 @@ height: 100vh;
 background-image: url("../Images/Capture.PNG");
 background-size:cover ;
 background-position: center ;
+background-attachment: fixed;
 }
 
 #text{
