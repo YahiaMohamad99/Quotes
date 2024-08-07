@@ -47,17 +47,23 @@ var quotes = [
   },
 ];
 
+
+
+
+
 var holder = "";
 function generate() {
   for (var i = 0; i < quotes.length; i++) {
-    var random = Math.floor(Math.random() * 6) + 0;
-
-    holder = `  <div class=" ">
-    <h2>${quotes[random].quote}</h2>
-    <p> ~ ${quotes[random].person} ~ </p>
+    var random = Math.floor(Math.random() * quotes.length  ) ;
+ 
+  }
+  holder = `  <div >
+    
+  <h2>${quotes[random].quote}</h2>
+  <p> ~ ${quotes[random].person} ~ </p>
 
 </div>`;
 
-    document.getElementById("display").innerHTML = holder;
-  }
+  document.getElementById("display").innerHTML = holder;
+ 
 }
